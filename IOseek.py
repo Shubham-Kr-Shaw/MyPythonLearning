@@ -2,7 +2,7 @@
 #f.tell() returns the position of the pointer
 f = open("test.txt")
 print(f.tell())
-print(f.readline())
+print(f.readline())#printing the
 f.seek(15)
 print(f.tell())
 print(f.readline())
