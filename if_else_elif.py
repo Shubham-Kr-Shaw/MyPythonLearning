@@ -5,11 +5,13 @@
 #     print("Yes ", x, " is in the list")
 # else:
 #     print("No ", x, " is not in the list")
-print("Enter your age?", )
-age = int(input())
-if age==18:
+
+#print("Enter your age?", )
+#age = int(input())
+age = int(input("Enter your age?\n "))
+if age==18 :
     print("Please try next year")
-elif age>18:
+elif age>18 :
     print("Congrats you are eligible for applying for Driving Licence")
 else:
     print("Sorry you are under age you are not eligible")
