@@ -7,6 +7,8 @@ d1.clear()
 print(d1)
 d3 = d2.copy()
 print(d3)
+item = input("\nEnter a item : Pen, Pencil, Book \n")
+print("Cost is "+ d2[(item.lower().capitalize())])
 
 """
 _____________|_________________________________________
