@@ -26,7 +26,7 @@ def rem(num1,num2):
 print("Please select operation-\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Remainder\n") 
 # Take input from the user
 select = int(input("Select operations form 1, 2, 3, 4, 5  : "))
-
+select = 1
 number_1 = int(input("Enter first number: "))
 number_2 = int(input("Enter second number: "))
 
