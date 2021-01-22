@@ -5,3 +5,4 @@
   f = open("test.txt", "a")
   close()
 """
+print("hello")
