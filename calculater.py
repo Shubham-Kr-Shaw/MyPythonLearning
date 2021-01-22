@@ -20,12 +20,15 @@ def divide(num1, num2):
 # Function to find remainder
 def rem(num1,num2):
     return num1%num2
+"""
 
 # print("Please select operation-\n"."1. Add\n","2. Subtract\n","3. Multiply\n","4. Divide\n" ,"5. Remainder\n")
 # since we use \n no need of seperate inverted commas
 print("Please select operation-\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Remainder\n") 
 # Take input from the user
 select = int(input("Select operations form 1, 2, 3, 4, 5  : "))
+
+"""
 
 number_1 = int(input("Enter first number: "))
 number_2 = int(input("Enter second number: "))
