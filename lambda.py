@@ -27,8 +27,8 @@ oldlist = [1,2,3,4,5,6,7,8,9,10]
 newlist = list(filter(lambda a:(a%2==0), oldlist))
 print(newlist)
 
-Lambda within the map()
-Syntax: map(function,iterables)
+# Lambda within the map()
+# Syntax: map(function,iterables)
 oldlist = [1,2,3,4,5,6,7,8,9,10]
 newlist = list(map(lambda a:(a%2==0), oldlist))
 print(newlist)
