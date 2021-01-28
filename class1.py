@@ -1,8 +1,8 @@
-class student:
+class Student:
     pass
 
-Shubham = student()
-Nikhil = student()
+Shubham = Student()
+Nikhil = Student()
 
 Shubham.name = "Shubham Kumar Shaw"
 Shubham.age = 21
