@@ -1,0 +1,25 @@
+class Employee:
+    no_of_leaves = 8
+
+    def __init__(self, aname, asalary, arole):
+        self.name = aname
+        self.salary = asalary
+        self.role = arole
+
+    def printdetails(self):
+        return f"The Name is {self.name}. Salery is {self.salary} and role is {self.role}"
+
+    @classmethod
+    def from_dash(cls, newleaves):
+        cls.no_of_leaves = newleaves
+
+    @classmethod
+    def printgood(string):
+        print("This is good" + string)
+
+
+harry = Employee("Harry Potter", 434, "Magician")
+rohan = Employee("Rohan", 567, "Teacher")
+karan = Employee.from_dash("Karan-480-Student")
+
+Employee.printgood("Rohan")
