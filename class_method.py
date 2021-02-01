@@ -7,7 +7,7 @@ class Employee:
         self.role = arole
 
     def printdetails(self):
-        return f"The name is {self.name}. Salery is {self.salery} and role is {self.role}"
+        return f"The name is {self.name}. Salery is {self.salary} and role is {self.role}"
 
     @classmethod
     def change_leaves(cls, newleaves):
@@ -18,3 +18,5 @@ Aman = Employee ("Aman Pandey", 99999, "Data Scientist")
 
 Aman.change_leaves(8)
 print(Shubham.no_of_leaves)
+print(Aman.printdetails())
+ 
