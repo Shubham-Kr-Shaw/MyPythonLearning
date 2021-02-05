@@ -25,8 +25,10 @@ class Employee:
     def printgood(string):
         print("This is good " + string)
 
-Shubham = Employee("Harry", 5456, "Programmer")
+Shubham = Employee("Harry", 45665, "Programmer")
 Aman = Employee("Aman", 45645, "Data Scientist")
-Rahul = Employee.from_dash("Rahul-4552-Programmer")
+Rahul = Employee.from_dash("Rahul-45452-Programmer")
 
 Employee.printgood("Rohan")
+print(Shubham.salary)
+print(Rahul.printdetails())
