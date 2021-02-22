@@ -13,5 +13,7 @@ def swapc(a):
 
 if __name__ == '__main__':
     s = input("Enter a string to alter the case in which it is written: ")
+    #This is a inbuilt method swapcase() which alters the case of the string.
+    #The Swaping of the case can also be done by the above method by changing the case of each letter of the string by iterating and changing the case of each letter.
     print(s.swapcase())
     print(swapc(s))
